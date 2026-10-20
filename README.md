@@ -1,3 +1,10 @@
+<picture>
+  <source media="(max-width: 520px) and (prefers-color-scheme: dark)" srcset="assets/masthead-dark-mobile.svg">
+  <source media="(max-width: 520px)" srcset="assets/masthead-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/masthead-dark.svg">
+  <img src="assets/masthead-light.svg" alt="Harshit Uppala — Applied AI and software. Evidence, human judgment, and systems that can be inspected." width="1200">
+</picture>
+
 # Harshit Uppala
 
 Computer science student at Memorial University of Newfoundland, building applied AI tools and backend systems.
