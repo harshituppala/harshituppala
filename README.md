@@ -31,6 +31,14 @@ The hosted lab follows deterministic rules. Separate local experiments compare a
 
 Both demos use fictional data. They run on free hosting, so the first visit can be slow. Setup instructions, test reports and remaining work are in each repository.
 
+## Cloud work
+
+I’ve earned **AWS Certified Cloud Practitioner** and am preparing for **Solutions Architect – Associate**.
+
+In ATLAS, I’ve tested an optional Amazon Bedrock path for document assessment. The [validation notes](https://github.com/harshituppala/atlas-chaoslab/blob/main/docs/bedrock-live-validation.md) include the model’s mistakes as well as its results. The public demo uses an offline baseline; it is not an AWS-hosted application.
+
+The projects also cover Docker packaging, PostgreSQL access controls, CI checks and a [backup-and-restore drill](https://github.com/harshituppala/atlas-chaoslab/blob/main/docs/adr/023-logical-backup-restore-drill.md). The demos currently run on Render, and the portfolio runs on Vercel.
+
 ## Tools in these projects
 
 Python and FastAPI for services; React and TypeScript for the interfaces; SQL and PostgreSQL for persistence. Docker, pytest and browser tests cover packaging and checks. The READMEs explain where each tool fits.
