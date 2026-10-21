@@ -1,8 +1,8 @@
 <picture>
-  <source media="(max-width: 520px) and (prefers-color-scheme: dark)" srcset="assets/masthead-dark-mobile.svg">
-  <source media="(max-width: 520px)" srcset="assets/masthead-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/masthead-dark.svg">
-  <img src="assets/masthead-light.svg" alt="Harshit Uppala — Applied AI and software. Document review, service recovery and evaluation." width="1200">
+  <source media="(max-width: 520px) and (prefers-color-scheme: dark)" srcset="assets/profile-dark-mobile.svg">
+  <source media="(max-width: 520px)" srcset="assets/profile-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg">
+  <img src="assets/profile-light.svg" alt="Harshit Uppala — Applied AI and software. Document review, service recovery and evaluation." width="1200">
 </picture>
 
 # Harshit Uppala
