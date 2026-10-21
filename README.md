@@ -5,30 +5,32 @@
   <img src="assets/profile-light.svg" alt="Harshit Uppala — Applied AI and software. Document review, service recovery and evaluation." width="1200">
 </picture>
 
-# Harshit Uppala
+# Hi, I’m Harshit.
 
-Computer science student at Memorial University of Newfoundland, building applied AI tools and backend systems.
-
-Recent work: reviewing procurement documents, evaluating model outputs and testing recovery from checkout failures.
+I’m a computer science student at Memorial University of Newfoundland, graduating in December 2026. I build tools for document review, AI evaluation and service recovery.
 
 [Portfolio](https://harshit-uppala-portfolio.vercel.app) · [LinkedIn](https://www.linkedin.com/in/harshit-kumar-uppala-8b65271a5)
 
-## Selected work
+## What I’m building
 
-### [ATLAS and CHAOSLAB](https://github.com/harshituppala/atlas-chaoslab)
+### [ATLAS + CHAOSLAB](https://github.com/harshituppala/atlas-chaoslab)
 
-ATLAS compares procurement requirements with capability records and links findings to source passages. CHAOSLAB tests extraction, citations, review state and failure handling, retaining incorrect outputs in its reports.
+An RFP asks for recovery within four hours. The capability register promises eight. **ATLAS** puts the requirement and source passage beside the assessment so a reviewer can check the mismatch.
 
-[Try the fictional review lab](https://atlas-review-lab.onrender.com) · [Case study](https://github.com/harshituppala/atlas-chaoslab/blob/main/docs/case-study.md)
+**CHAOSLAB** tests the workflow’s outputs: what it extracted, which evidence it cited, and what happened when a tool failed. It also compares saved runs, keeping regressions and missing cases visible.
+
+[Open the review lab](https://atlas-review-lab.onrender.com) · [Read the case study](https://github.com/harshituppala/atlas-chaoslab/blob/main/docs/case-study.md)
 
 ### [IncidentDesk](https://github.com/harshituppala/incidentdesk)
 
-Investigate a checkout failure, review a bounded recovery proposal and approve a change. Fresh HTTP traffic checks the outcome; stale approvals and unsupported actions are blocked. Local model experiments are compared with explicit rules, including cases where the model performs worse.
+A checkout service is failing. Inspect the traces, review a recovery proposal, then approve or reject it. New HTTP requests check whether the change helped; an approval stops being valid when the service state changes.
 
-[Try the recovery lab](https://incidentdesk-g6pp.onrender.com) · [Design and results](https://github.com/harshituppala/incidentdesk/blob/main/docs/case-study.md)
+The hosted lab follows deterministic rules. Separate local experiments compare a model with those rules, including cases where the model does worse.
 
-Both hosted labs use synthetic data and deterministic baselines. Their repositories separate those demos from model experiments and document what remains unfinished. Free hosting may take a minute to wake up.
+[Open the recovery lab](https://incidentdesk-g6pp.onrender.com) · [Read the design and results](https://github.com/harshituppala/incidentdesk/blob/main/docs/case-study.md)
 
-## Working with
+Both demos use fictional data. They run on free hosting, so the first visit can be slow. Setup instructions, test reports and remaining work are in each repository.
 
-Python, TypeScript/JavaScript, HTTP APIs, SQL, Docker, evaluation fixtures and browser tests. The project READMEs include setup instructions, architecture decisions and retained failures.
+## Tools in these projects
+
+Python and FastAPI for services; React and TypeScript for the interfaces; SQL and PostgreSQL for persistence. Docker, pytest and browser tests cover packaging and checks. The READMEs explain where each tool fits.
