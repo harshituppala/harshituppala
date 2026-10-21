@@ -2,14 +2,14 @@
   <source media="(max-width: 520px) and (prefers-color-scheme: dark)" srcset="assets/masthead-dark-mobile.svg">
   <source media="(max-width: 520px)" srcset="assets/masthead-light-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/masthead-dark.svg">
-  <img src="assets/masthead-light.svg" alt="Harshit Uppala — Applied AI and software. Evidence, human judgment, and systems that can be inspected." width="1200">
+  <img src="assets/masthead-light.svg" alt="Harshit Uppala — Applied AI and software. Document review, service recovery and evaluation." width="1200">
 </picture>
 
 # Harshit Uppala
 
 Computer science student at Memorial University of Newfoundland, building applied AI tools and backend systems.
 
-My current projects focus on workflows where an answer needs evidence, a reviewer and a way to detect failure.
+Recent work: reviewing procurement documents, evaluating model outputs and testing recovery from checkout failures.
 
 [Portfolio](https://harshit-uppala-portfolio.vercel.app) · [LinkedIn](https://www.linkedin.com/in/harshit-kumar-uppala-8b65271a5)
 
