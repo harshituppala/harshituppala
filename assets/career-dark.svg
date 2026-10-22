@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">Harshit Uppala — Applied AI, Cloud, DevOps and Software Engineering</title>
+  <desc id="desc">Areas of focus and career development.</desc>
+  <rect width="1200" height="250" rx="8" fill="#101b27"/>
+  <path d="M48 36h64" stroke="#ff9b78" stroke-width="3"/>
+  <g fill="#f4f0e8" font-family="Georgia, Times New Roman, serif" letter-spacing="-2"><text x="48" y="128" font-size="88">Harshit Uppala</text></g>
+  <g fill="#b5c2cc" font-family="Arial, Helvetica, sans-serif" font-size="26"><text x="48" y="194">Applied AI · Cloud · DevOps · Software Engineering</text></g>
+</svg>

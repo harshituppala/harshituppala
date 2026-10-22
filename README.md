@@ -1,13 +1,15 @@
 <picture>
-  <source media="(max-width: 520px) and (prefers-color-scheme: dark)" srcset="assets/profile-dark-mobile.svg">
-  <source media="(max-width: 520px)" srcset="assets/profile-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg">
-  <img src="assets/profile-light.svg" alt="Harshit Uppala — Applied AI and software. Document review, service recovery and evaluation." width="1200">
+  <source media="(max-width: 520px) and (prefers-color-scheme: dark)" srcset="assets/career-dark-mobile.svg">
+  <source media="(max-width: 520px)" srcset="assets/career-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/career-dark.svg">
+  <img src="assets/career-light.svg" alt="Harshit Uppala — Applied AI, Cloud, DevOps and Software Engineering." width="1200">
 </picture>
 
 # Hi, I’m Harshit.
 
-I’m a computer science student at Memorial University of Newfoundland, graduating in December 2026. I build tools for document review, AI evaluation and service recovery.
+I’m Harshit, a computer science student at Memorial University of Newfoundland graduating in December 2026. I’m working toward a career across applied AI, cloud, DevOps and software engineering.
+
+I’m interested in the whole process: building something useful, getting it deployed, and figuring out what needs to improve once it runs.
 
 [Portfolio](https://harshit-uppala-portfolio.vercel.app) · [LinkedIn](https://www.linkedin.com/in/harshit-kumar-uppala-8b65271a5)
 
