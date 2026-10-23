@@ -23,15 +23,7 @@ An RFP asks for recovery within four hours. The capability register promises eig
 
 [Open the review lab](https://atlas-review-lab.onrender.com) · [Read the case study](https://github.com/harshituppala/atlas-chaoslab/blob/main/docs/case-study.md)
 
-### [IncidentDesk](https://github.com/harshituppala/incidentdesk)
-
-A checkout service is failing. Inspect the traces, review a recovery proposal, then approve or reject it. New HTTP requests check whether the change helped; an approval stops being valid when the service state changes.
-
-The hosted lab follows deterministic rules. Separate local experiments compare a model with those rules, including cases where the model does worse.
-
-[Open the recovery lab](https://incidentdesk-g6pp.onrender.com) · [Read the design and results](https://github.com/harshituppala/incidentdesk/blob/main/docs/case-study.md)
-
-Both demos use fictional data. They run on free hosting, so the first visit can be slow. Setup instructions, test reports and remaining work are in each repository.
+The review lab uses fictional data and runs on free hosting, so the first visit can be slow. Setup instructions, test reports and remaining work are in the repository.
 
 ## Cloud work
 
@@ -39,7 +31,7 @@ I’ve earned **AWS Certified Cloud Practitioner** and am preparing for **Soluti
 
 In ATLAS, I’ve tested an optional Amazon Bedrock path for document assessment. The [validation notes](https://github.com/harshituppala/atlas-chaoslab/blob/main/docs/bedrock-live-validation.md) include the model’s mistakes as well as its results. The public demo uses an offline baseline; it is not an AWS-hosted application.
 
-The projects also cover Docker packaging, PostgreSQL access controls, CI checks and a [backup-and-restore drill](https://github.com/harshituppala/atlas-chaoslab/blob/main/docs/adr/023-logical-backup-restore-drill.md). The demos currently run on Render, and the portfolio runs on Vercel.
+The projects also cover Docker packaging, PostgreSQL access controls, CI checks and a [backup-and-restore drill](https://github.com/harshituppala/atlas-chaoslab/blob/main/docs/adr/023-logical-backup-restore-drill.md). The review lab currently runs on Render, and the portfolio runs on Vercel.
 
 ## Tools in these projects
 
