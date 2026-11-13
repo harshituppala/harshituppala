@@ -33,6 +33,10 @@ In ATLAS, I’ve tested an optional Amazon Bedrock path for document assessment.
 
 The projects also cover Docker packaging, PostgreSQL access controls, CI checks and a [backup-and-restore drill](https://github.com/harshituppala/atlas-chaoslab/blob/main/docs/adr/023-logical-backup-restore-drill.md). The review lab currently runs on Render, and the portfolio runs on Vercel.
 
+## Applied AI learning
+
+Earned the Claude Academy course completion badge for [Building effective human-agent teams (beta)](https://academy.claude.com/verify/e603a25ac97ee4d0fd1b0f1503fee136) on November 12, 2026.
+
 ## Tools in these projects
 
 Python and FastAPI for services; React and TypeScript for the interfaces; SQL and PostgreSQL for persistence. Docker, pytest and browser tests cover packaging and checks. The READMEs explain where each tool fits.
